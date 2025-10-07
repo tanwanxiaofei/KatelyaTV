@@ -32,11 +32,11 @@ const MainKatelyaLogo = () => {
       <div className='logo-background-glow'></div>
 
       {/* 主 Logo */}
-      <div className='main-katelya-logo'>KatelyaTV</div>
+      <div className='main-katelya-logo'>小飞影视</div>
 
       {/* 副标题 */}
       <div className='mt-3 text-center'>
-        <div className='main-logo-subtitle'>极致影视体验，尽在指尖</div>
+        <div className='main-logo-subtitle'>内部测试请勿分享</div>
       </div>
 
       {/* 装饰性粒子效果 */}
@@ -104,7 +104,7 @@ function HomeClient() {
     if (typeof window !== 'undefined' && announcement) {
       const hasSeenAnnouncement = localStorage.getItem('hasSeenAnnouncement');
       if (hasSeenAnnouncement !== announcement) {
-        setShowAnnouncement(true);
+        setShowAnnouncement(false);
       } else {
         setShowAnnouncement(Boolean(!hasSeenAnnouncement && announcement));
       }
