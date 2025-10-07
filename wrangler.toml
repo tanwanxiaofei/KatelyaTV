@@ -19,7 +19,7 @@ NEXTAUTH_URL = "https://your-domain.pages.dev"
 IMAGE_PROXY_ENABLED = "true"
 
 # 缓存配置
-CACHE_TTL = "3600"
+CACHE_TTL = "7200"
 
 # CORS 配置
 CORS_ORIGIN = "*"
